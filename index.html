@@ -21,7 +21,7 @@
 						<header>
 							<span class="avatar"><img src="images/avatar.png" alt="Eric Li" /></span>
 							<h1 class="name">Eric Li</h1>
-							<p>Junior Penguin Developer</p>
+							<p>Experienced Penguin Developer</p>
 						</header>
 						
 						<footer>
@@ -50,28 +50,5 @@
 					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
 				}
 			</script>
-			<script>
-				(function(s,u,r,f,l,y){s[f]=s[f]||{init:function(){s[f].q=arguments}};
-				  l=u.createElement(r);y=u.getElementsByTagName(r)[0];l.async=1;
-				  l.src='https://surfly.com/surfly.js';y.parentNode.insertBefore(l,y);})
-				  (window,document,'script','Surfly');
-
-				  var settings = {
-				    widget_key:'cdfc481a87784a0599ce9781dd3975d4',
-				    only_embedded_sessions: true
-				  };
-				  Surfly.init(settings, function(initResult) {
-				    if (initResult.success) {
-				      console.log('All good for happy cobrowsing!');
-				      // it is now safe to use API
-				      if (!Surfly.isInsideSession) {
-					Surfly.button();
-				      }
-				    } else {
-				      console.log('Your browser lacks features required by Surfly');
-				    }
-				  });
-			</script>
-
 	</body>
 </html>
